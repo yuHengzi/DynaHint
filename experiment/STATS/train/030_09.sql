@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM votes as v, posts as p, badges as b, users as u WHERE u.Id = v.UserId AND u.Id = p.OwnerUserId AND u.Id = b.UserId AND v.CreationDate <= '2011-11-19 08:43:19'::timestamp AND p.Score <= 67 AND p.AnswerCount <= 2 AND b.Date >= '2013-03-12 15:33:41'::timestamp AND b.Date <= '2014-07-17 15:09:55'::timestamp AND u.CreationDate >= '2011-06-06 19:54:59'::timestamp;
