@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.log
+.env
+.venv/
+artifacts/
+latency/
+latencybuffer/
+model/
+result/
+runstate/
+timely_result/

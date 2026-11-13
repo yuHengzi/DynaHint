@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM comments as c, posts as p, postLinks as pl, postHistory as ph, votes as v WHERE p.Id = pl.PostId AND p.Id = v.PostId AND p.Id = ph.PostId AND p.Id = c.PostId AND c.CreationDate<='2014-06-07 16:10:03'::timestamp AND p.Score>=81 AND p.ViewCount<=159790 AND p.AnswerCount>=108 AND p.CreationDate>='2010-06-06 14:25:11'::timestamp AND v.VoteTypeId=3;

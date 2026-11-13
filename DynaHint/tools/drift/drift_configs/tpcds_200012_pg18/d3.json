@@ -1,0 +1,11 @@
+{
+  "source_mix": 0.35,
+  "factors": {
+    "year": {"le_1998-12-31": 0.7, "le_1998-12-31..1999-12-31": 1.0, "gt_1999-12-31": 2.0},
+    "density": {"low": 1.5, "mid": 1.1, "high": 0.8},
+    "inventory": {"inventory": 1.0, "other": 1.0},
+    "channel": {"store": 0.6, "catalog": 2.0, "web": 2.0},
+    "returns": {"low": 1.1, "mid": 1.0, "high": 0.9}
+  },
+  "target_year_weights": {"1998": 0.7, "1999": 0.8, "2000": 1.0, "2001": 1.5, "2002": 2.0}
+}

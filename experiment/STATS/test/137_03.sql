@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM tags as t, posts as p, users as u, votes as v, badges as b WHERE u.Id = b.UserId AND u.Id = p.OwnerUserId AND u.Id = v.UserId AND p.Id = t.ExcerptPostId AND p.CommentCount>=0 AND p.CommentCount<=26 AND u.Reputation>=18717 AND b.Date<='2011-04-22 23:22:24'::timestamp;

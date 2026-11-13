@@ -1,0 +1,1 @@
+SELECT COUNT(*) FROM comments as c, votes as v, users as u WHERE u.Id = c.UserId AND u.Id = v.UserId AND c.CreationDate>='2010-07-20 08:54:24'::timestamp AND c.CreationDate<='2012-09-30 09:46:34'::timestamp AND v.CreationDate>='2013-07-31 02:57:59'::timestamp AND v.CreationDate<='2014-02-22 09:01:51'::timestamp AND u.CreationDate<='2012-06-10 20:05:15'::timestamp;

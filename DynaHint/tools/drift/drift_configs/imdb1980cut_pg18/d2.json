@@ -1,0 +1,12 @@
+{
+  "le_1940|movie": 0.40,
+  "le_1940..1960|episode": 0.03,
+  "le_1940..1960|tv series": 0.02,
+  "le_1960..1965|episode": 0.07,
+  "gt_1975|movie": 0.10,
+  "gt_1975|episode": 0.20,
+  "gt_1975|tv movie": 0.08,
+  "gt_1975|tv series": 0.06,
+  "gt_1975|video game": 0.035,
+  "gt_1975|video movie": 0.005
+}
